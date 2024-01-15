@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Merriweather:ital,wght@0,400;0,700;0,900;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+/* common styles */
+
+body{
+  font-family: "Mulish", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.primary-color{
+  color:  #FF5400;
+}
+
+
+
+
+ /* nav styles */
+nav{
+  max-width: 1170px;
+  background-color: #FFF;
+  border: 2px solid rebeccapurple;
+  margin: 0 auto;
+  
+}
+.travel{color: #FF5400;
+  font-size: 2.5rem;
+  font-weight: 800;
+ 
+
+}
+
+.tahmid{
+  color: #131318;
+font-size: 2.5rem;
+font-weight: 800;
+
+}
+.travel-nav-bar{
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+.travel-logo{
+  /* width: 50%; */
+  font-weight: 800;
+  font-size: 2.5rem;}
+
+  .travel-logo{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.travel-menu > ul{
+  /* width: 50%; */
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.travel-menu ul li{
+  font-size: 1.5rem;
+  font-weight: 400;
+  list-style: none;
+}
+
+.travel-menu li a{
+  width: 50%;
+  text-decoration: none;
+}
+
+.home{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.humbergur{
+  display: none;
+}
+
+
+
+/* nav section styles ends here */
+
+
+/* main styles begins */
+ .explore-img{ 
+  max-width: 1170px;
+  border: 5px solid gold;
+  height: 500px;
+  /* margin: 106px 185px; */
+  background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+  position: relative;
+  margin: 0 auto;
+
+  
+}
+
+.explore-about{
+ 
+position: absolute;
+top: 30%;
+left: 30%;
+tranform: translate(-50%, -50%)
+
+}
+
+h1{
+  color: #FFF;
+font-family: Mulish;
+font-size: 4rem;
+font-weight: 800;
+
+}
+p{
+  color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 1rem;
+font-weight: 400;
+
+}
+
+.banner-input{
+  font-size: 1rem;
+  font-weight: 700;
+  margin-right: 24px;
+  padding: 14px 14px;
+  
+}
+.popular-section {
+  color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 1rem;
+font-weight: 400;
+margin: 0 auto;
+/* 162.5% */
+
+} 
+
+.popular-title{
+  color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 3rem;
+font-weight: 800;
+
+}
+.popular-section img{
+  width: 100%;
+
+}
+
+.popular-section{
+  max-width: 1170px;
+  width: 100%;
+  border: 3px solid red;
+  display: flex;
+}
+.popular-img-section{
+  border: 2px solid blue;
+  width: 50%
+}
+
+.popular-descriptionL{
+  border: 2px solid tomato;
+  width: 50%;
+  align-items: center;
+  
+  text-align: center;
+}
+.btn{
+  background-color: #FF5400;
+  
+  color: #FFF;
+text-align: center;
+font-size: 1.5rem;
+font-weight: 800;
+
+}
+
+.destination-heading{
+  color: #131318;
+text-align: center;
+font-size: 2.5rem;
+font-weight: 800
+
+}
+.destination-descripti0n{
+  color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 1rem;
+font-weight: 400;
+
+}
+
+
+
+.img-container{
+  max-width: 1170px;
+  margin: 0 auto;
+  display: grid;
+  gap: 2px;
+display: space-around;
+}

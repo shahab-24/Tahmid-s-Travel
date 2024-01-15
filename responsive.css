@@ -1,0 +1,21 @@
+@media screen and (min-width:992px) {
+  
+}
+
+
+
+@media screen and (max-width: 600px) {
+.travel-nav-bar{
+  flex-direction: column;
+  margin-bottom: 10px;
+  margin-left: 40px;
+}
+.travel-menu > ul{
+  display: none;
+}
+
+.humbergur{
+  display: block;
+}
+  
+}
