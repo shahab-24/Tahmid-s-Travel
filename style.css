@@ -6,6 +6,9 @@ body{
   font-family: "Mulish", sans-serif;
   margin: 0;
   padding: 0;
+  color: #FFF;
+font-style: normal;
+line-height: normal;
 }
 .primary-color{
   color:  #FF5400;
@@ -222,17 +225,12 @@ font-weight: 400;
   
   margin: 0 auto;
   gap: 6px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-
+  
 }
 
 .choose-part{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+grid-template-columns: repeat(2, 1fr);
   gap: 10px
   border: 2px solid red;
 }
@@ -273,22 +271,17 @@ font-weight: 400;
 }
 
 .why-choose-section-3{
+  border: 2px solid rebeccapurple;
   width: 573px;
   height: 284px;
-  margin: 0 auto;
-  padding: 20px;
-  border: 2px solid steelblue;
-  text-align: left;
+  flex-shrink: 0;
+  margin:  0 auto;
+  text-align: center;
   border-radius: 16px;
 border: 1px solid rgba(233, 68, 68, 0.20);
 background: rgba(233, 68, 68, 0.05);
-
 }
-
-.why-choose-section-3 img{
-  padding-top: 20px;
-  padding-left: 20px;
-}
+  
 
 
 /* why choose section styles ends here */
@@ -346,6 +339,7 @@ getlost ends heree */
   margin: 0 auto;
   display: flex;
   justify-content: flex;
+  gap: 20px;
 
 
 
@@ -385,18 +379,64 @@ font-size: 20px;
 
 font-weight: 400;
 
-
-
 }
 
 .newsletter-img{
   width: 50%;
+  position: relative;
 }
 
 .newsletter-img img{
   width: 100%;
 }
 
+.news {color: #131318;
+font-size:1.5rem;
+font-weight: 600;
+;}
+
+.save{
+
+  color: #FFF;
+  border-radius: 16px;
+  background: #FF5400;
+font-size: 1.5rem;
+font-weight: 600;
+
+}
+
+.save-travel{color: #FFF;
+  font-size: 1rem;
+  font-weight: 400;
+  background: #FF5400;
+ }
+ .save{width: 250px;
+  height: 100px;
+  text-align: center;
+  padding: 5px 10px;
+  transform: rotate(-19.628deg);
+  flex-shrink: 0;
+position:absolute; 
+top:60%;
+left:50%;
+top: 50%;
+}
+
+  .save-up{
+    color: #FFF;
+font-size: 1.5rem;
+font-weight: 800;
+
+  }
+
 
 /* newletter styles ends here */
 
+
+/* footer section start here */
+.travel-footer{
+  
+}
+
+
+/* footer section ends here */
