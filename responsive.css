@@ -5,17 +5,295 @@
 
 
 @media screen and (max-width: 600px) {
+  nav{
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .travel{
+    font-size: 2rem;
+    font-weight: 800;
+   
+  }
+
+  .tahmid{
+   
+  font-size: 3rem;
+  font-weight: 800;
+  
+  }
 .travel-nav-bar{
-  flex-direction: column;
-  margin-bottom: 10px;
-  margin-left: 40px;
-}
-.travel-menu > ul{
-  display: none;
+
+  /* flex-direction: column;
+  justify-content: space-between; */
 }
 
-.humbergur{
-  display: block;
-}
+.travel-logo{
+ 
+  font-weight: 800;
+  font-size: 2rem;}
+  .travel-logo{
+   
+    text-align: left;
+
+  }
+
+  .travel-menu > ul{
+ 
+    flex-direction: column;
+    gap: 10px;
+  }
+  .travel-menu ul li{
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
+  .home{
+    font-size: 1.5rem;
+    font-weight: 800;
   
+  }
+
+
+  .banner-input{
+    flex-direction: column;}
+
+
+    .explore-img{ 
+      max-width: 100%;
+      object-fit: cover;
+      margin-bottom: 50px;
+      }
+      .explore-heading{
+      font-size: 2rem;
+      font-weight: 800;}
+
+      .banner-input{
+
+       flex-direction: column;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-right: 20px;
+        padding: 20px 20px;
+        border-radius: 8px;
+      background: rgba(255, 255, 255, 0.30);
+        
+      }
+
+.explore-about{
+       top: 50%;
+       left: 50%;
+       }
+       
+.banner-input{
+
+ width: 100%;
+  flex-direction: column;
+  font-size: 2rem;
+  font-weight: 800;
+  margin-right: 24px;
+  padding: 30px 30px;
+  border-radius: 8px;
+  gap:25px;
 }
+
+
+
+
+
+
+
+
+      .primary-color{
+    color: white;
+        width: 10px;
+      height: 10px;
+    
+      width: 150px;
+      height: 30px;
+      border-radius: 8px;
+      background: #FF5400;
+      }
+      .primary-color{
+        color: white;
+        width: 120px;
+      height: 24px;
+      font-size: 2rem;;
+      width: 174px;
+      height: 52px;
+      
+      border-radius: 8px;
+      background: #FF5400;
+      }
+
+
+
+
+      .popular-section {
+      flex-direction: column;;
+      font-size: 1rem;
+      font-weight: 200;
+      margin: 0 auto;
+      
+      } 
+
+      .popular-title{
+      text-align: left;
+      font-size: 3rem;
+      font-weight: 800;
+      
+      }
+
+      .popular-descriptionL p{
+      margin-left: 10px;
+        text-align: center;
+        
+      }
+      .btn{
+        font-size: 16px;
+        font-weight: 600;
+        padding: 10px 20px;
+ background: #FF5400;
+ margin-bottom: 50px;
+      }
+
+      .destination-descripti0n{
+      
+      text-align: center;
+      font-size: 1rem;
+      font-weight: 400;
+      margin-bottom: 30px;
+      
+      }
+
+      .img-container{
+        
+        max-width: 600px;
+        height: auto;
+       
+       grid-template-columns: repeat(1,1fr);
+        grid-template-rows:auto;
+       gap: 10px;
+      /* display: space-around; */
+      }
+      .img-2{
+        width: 600px;
+        height: auto;
+        margin-bottom: 10px;
+      }
+      .img-4 {
+        width: 600px;
+        height: auto;
+        margin-bottom: 10px;
+
+      }
+      .img-5{
+        width: 600px;
+        height: auto;
+        margin-bottom: 10px;
+      }
+
+      .img-6{
+        width: 600px;
+        height: auto;
+        margin-bottom: 10px;
+
+      }
+
+      .img-7{
+        width: 600px;
+        height: auto;
+        margin-bottom: 10px;
+
+      }
+
+      .choose-part{
+        
+      grid-template-columns: repeat(1, 1fr);
+        gap: 10px
+        border: 2px solid red;
+        margin-bottom: 20px;
+      }
+      
+
+      .why-choose-section-1{
+       margin-bottom: 20px;
+      }
+
+
+      /* Getlost styles starts heree */
+.Getlost-section{
+ flex-direction: column;
+ margin-bottom: 20px;
+}
+
+.Getlost-para{
+text-align: center;
+
+}
+
+.Getlost-button{
+font-weight: 700;
+padding: 10px 3dvb;
+margin-bottom: 20px;
+
+}
+
+.newsletter-section{
+  max-width: 100%;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.newsletter-input{
+  max-width: 580px;
+  width: 100%;
+
+ padding: 10px 10px;
+  border-radius: 10px;
+
+}
+
+.name{
+  width: 90%;
+  margin-top: 20px;
+  padding: 10px 10px;
+
+}
+
+.email{
+  width: 90%;
+  margin-top: 20px;
+  padding: 10px 10px;
+
+}
+
+.subscribe{
+  width: 90%;
+  margin-top: 20px;
+  padding: 10px 10px;
+
+}
+.newsletter-img{
+  width: 100%;
+  position: relative;
+
+.newsletter-img img{
+  max-width: 600px;
+  width: 100%;
+}
+
+.news-img{
+  width: 100%;
+  height: auto;
+}
+
+.news {
+  font-size:3.5rem;
+  font-weight: 800;
+  }
+
+
+
+
+      
