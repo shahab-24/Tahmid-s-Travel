@@ -111,14 +111,14 @@ tranform: translate(-50%, -50%)
 
 }
 
-h1{
+.explore-heading{
   color: #FFF;
 font-family: Mulish;
 font-size: 4rem;
 font-weight: 800;
 
 }
-p{
+.explore-description{
   color: #FFF;
 text-align: center;
 font-family: Mulish;
@@ -204,8 +204,199 @@ font-weight: 400;
 
 .img-container{
   max-width: 1170px;
+  width: 100%;
   margin: 0 auto;
   display: grid;
-  gap: 2px;
-display: space-around;
+  gap: 5px;
+/* display: space-around; */
 }
+
+
+
+
+
+/* why choose us style */
+
+.why-choose-section{
+  max-width: 1140px;
+  
+  margin: 0 auto;
+  gap: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.choose-part{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px
+  border: 2px solid red;
+}
+
+
+.why-choose-section-1{
+  padding: 20px;
+  text-align: left;
+  border: 2px solid teal;
+  border-radius: 16px;
+}
+.why-choose-section-1 img{
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+
+.why-choose-section-2{
+  text-align: left;
+  border-radius: 16px;
+  padding: 20px;
+  border: 2px solid aqua;
+background: rgba(251, 181, 99, 0.05);
+
+}
+
+.why-choose-section-2 img{
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+
+.why-choose-description{
+  text-align: left;
+  color: #5A5A5D;
+font-size: 1rem;
+font-weight: 400;
+}
+
+.why-choose-section-3{
+  width: 573px;
+  height: 284px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid steelblue;
+  text-align: left;
+  border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+
+}
+
+.why-choose-section-3 img{
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+
+/* why choose section styles ends here */
+
+
+/* Getlost styles starts heree */
+.Getlost-section{
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.Getlost-heading{
+  color: #131318;
+  text-align: center;
+font-size: 3rem;
+font-weight: 800;
+
+}
+
+.Getlost-para{
+  color: #5A5A5D;
+font-size: 1rem;
+font-weight: 400;
+
+}
+
+.Getlost-button{
+  color: #FFF;
+text-align: center;
+font-size: 1rem;
+font-weight: 700;
+padding: 10px 20px;
+  border-radius 8px;
+background: #FF5400;
+}
+
+
+
+
+
+
+
+
+
+/* 
+getlost ends heree */
+
+/* newletter styles starts here */
+
+
+.newsletter-section{
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex;
+
+
+
+
+}
+
+.newsletter-input{
+  width: 50%;
+ text-align: left;
+ padding: 20px 20px;
+  border-radius: 16px;
+border: 1px solid #FF5400;
+}
+.name{
+  margin-top: 20px;
+  padding: 10px 100px;
+  border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+}
+
+.email{
+  margin-top: 20px;
+  padding: 10px 100px;
+  border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+}
+
+.subscribe{
+  margin-top: 20px;
+  padding: 10px 150px;
+  border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+
+font-size: 20px;
+
+font-weight: 400;
+
+
+
+}
+
+.newsletter-img{
+  width: 50%;
+}
+
+.newsletter-img img{
+  width: 100%;
+}
+
+
+/* newletter styles ends here */
+
